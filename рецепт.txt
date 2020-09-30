@@ -1,0 +1,9 @@
+sugar 0.5 kg
+food
+cake
+<<<<<<< HEAD
+goal
+hello
+=======
+voda
+>>>>>>> Vladislav
