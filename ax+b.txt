@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cstdio>
+
+int main()
+{
+std::puts("Please enter a and b 'ax + b = 0' : ");
+float a = 0;
+float b = 0;
+std::scanf("%f %f", &a, &b);
+if (a == 0)
+{
+std::printf("You can't divide by 0");
+}
+else {
+std::printf("Solution: x = %f", -b/a);
+}
+}

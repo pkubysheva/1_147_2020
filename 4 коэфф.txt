@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cstdio>
+
+int main()
+{
+std::puts("Please enter 4 numbers");
+float a = 0;
+float b = 0;
+float c = 0;
+float d = 0;
+std::scanf("%f %f %f %f", &a, &b, &c, &d);
+std::printf("Аrithmetical mean: %f", (a+b+c+d)/4);
+}
