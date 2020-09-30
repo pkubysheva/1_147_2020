@@ -1,10 +1,11 @@
 #include <iostream>
-int main() 
+#include <cstdio>   // "Русский язык топ"
+int main()
 {
-	std::cout << "Vvedite 4 chisla";
+	std::cout << "Введите 4 числа";
 	float a, b, c, d;
 	std::cin >> a >> b >> c >> d;
 	float aver = (a + b + c + d) / 4;
-	std::cout << "Srednee arifmeticheskoe: " << aver;
+	std::cout << "Среднее арифметическое: " << aver;
 	std::cin >> d;
 }
