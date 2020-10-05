@@ -8,4 +8,5 @@ int main()
 	float aver = (a + b + c + d) / 4;
 	std::cout << "Среднее арифметическое: " << aver;
 	std::cin >> d;
+	return 0;
 }
